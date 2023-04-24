@@ -1,0 +1,10 @@
+.cspButton {
+  background-color: #4CAF50 !important; /* Green */
+  border: none;
+  color: white !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block !important;
+  font-size: 16px !important;
+}
