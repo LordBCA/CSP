@@ -9,7 +9,7 @@ $(document).ready(function () {
         options.success = function (response) {
             alert("Api response: "+ response);            
         };
-        options.error = function () {
+        options.error = function (response) {
             alert("Api error: "+ response);              
         };
         $.ajax(options);
