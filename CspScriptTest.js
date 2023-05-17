@@ -1,8 +1,7 @@
 $(document).ready(function () {
   $("#btn").click(function (){
     alert("Alert displayed using a external script.");
-  });
-  $("#btnApi").click(function (){
+    
     var options = {};
         options.url = "https://weatherapi-com.p.rapidapi.com/";
         options.type = "GET";
@@ -14,6 +13,6 @@ $(document).ready(function () {
         options.error = function () {
             alert("Api error: "+ response);              
         };
-        $.ajax(options);    
+        $.ajax(options);
   });
 });
