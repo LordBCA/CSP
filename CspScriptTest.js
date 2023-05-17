@@ -7,10 +7,10 @@ $(document).ready(function () {
         options.type = "GET";
         options.dataType = "json";
         options.success = function (response) {
-            alert("Api response: "+ response);            
+            alert("Api response: "+ JSON.stringify(response));            
         };
         options.error = function (response) {
-            alert("Api error:  "+ response);              
+            alert("Api error:  "+ JSON.stringify(response));              
         };
         $.ajax(options);
   });
