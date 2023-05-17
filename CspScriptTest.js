@@ -10,7 +10,7 @@ $(document).ready(function () {
             alert("Api response: "+ response);            
         };
         options.error = function (response) {
-            alert("Api error: "+ response);              
+            alert("Api error:  "+ response);              
         };
         $.ajax(options);
   });
