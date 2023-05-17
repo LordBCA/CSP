@@ -9,7 +9,6 @@ $(document).ready(function () {
         options.success = function (response) {
             alert("Api response: "+ response);            
         };
-
         options.error = function () {
             alert("Api error: "+ response);              
         };
